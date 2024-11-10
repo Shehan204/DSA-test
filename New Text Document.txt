@@ -1,6 +1,86 @@
-body {
-    background-color: blue;
-  }
-  h1 {
-    background–color: purple;
-  }
+Microsoft Windows [Version 10.0.18362.30]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\cstopupsep24>git config --global user.name "BlackPheonix
+
+C:\Users\cstopupsep24>git config --global user.name "BlackPheonix"
+
+C:\Users\cstopupsep24>git config --global user.email "pererashehan204@gmai.com"
+
+C:\Users\cstopupsep24>cd C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS
+The system cannot find the path specified.
+'CSS' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\cstopupsep24>cd "C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS"
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS>git init Test-DSA
+Initialized empty Git repository in C:/Users/cstopupsep24/Desktop/SA22527806/DSA W-7/HTML&CSS/Test-DSA/.git/
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS>"C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA"
+'"C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA"' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS>git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS>git add .
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS>cd test-DSA
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git add .
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git commit -m "my first comment"
+[master (root-commit) c13ae4f] my first comment
+ 4 files changed, 61 insertions(+)
+ create mode 100644 New Text Document.txt
+ create mode 100644 index.html
+ create mode 100644 js/app.js
+ create mode 100644 myCSS.css
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git push prigin main
+error: src refspec main does not match any
+error: failed to push some refs to 'prigin'
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git remote add origin https://github.com/Shehan204/DSA-test.git
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/Shehan204/DSA-test.git'
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git branch -M main
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git push -u origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.10 KiB | 561.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Shehan204/DSA-test.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git push -u origin main
