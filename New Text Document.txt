@@ -84,3 +84,33 @@ To https://github.com/Shehan204/DSA-test.git
 branch 'main' set up to track 'origin/main'.
 
 C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git push -u origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git add .
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   New Text Document.txt
+
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git commit -m "Changed txt"
+[main b052907] Changed txt
+ 1 file changed, 86 insertions(+), 6 deletions(-)
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.32 KiB | 1.32 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Shehan204/DSA-test.git
+   c13ae4f..b052907  main -> main
+
+C:\Users\cstopupsep24\Desktop\SA22527806\DSA W-7\HTML&CSS\Test-DSA>
